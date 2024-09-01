@@ -20,13 +20,13 @@ public class Lab1 {
         
         Scanner keyboard = new Scanner(System.in);
         
-        System.out.print("Enter the score on the first test: ");
+        System.out.print("Enter the score on the 1 test: ");
         test1 = keyboard.nextInt();
         
-        System.out.print("\nEnter the score on the second test: ");
+        System.out.print("\nEnter the score on the 2 test: ");
         test2 = keyboard.nextInt();
         
-        System.out.print("\nEnter the score on the third test: ");
+        System.out.print("\nEnter the score on the 3 test: ");
         test3 = keyboard.nextInt();
         
         average = (test1 + test2 + test3) / (double) NUM_TEST;
